@@ -23,5 +23,9 @@ class Test(unittest.TestCase):
         # 2 2 +
         self.assertEqual(4, NotationPolonaiseInverse().calcul(2, 2, "+"))
 
+    def test_calcul_soustraction_npi(self):
+        # 5 3 -
+        self.assertEqual(2, NotationPolonaiseInverse().calcul(5, 3, "-"))
+
 if __name__ == '__main__':
     unittest.main()
