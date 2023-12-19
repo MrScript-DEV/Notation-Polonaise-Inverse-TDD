@@ -14,5 +14,7 @@ class NotationPolonaiseInverse:
     def calcul(self, a, b, operateur):
         if operateur == "+":
             return self.addition(a, b)
-        else:
+        elif operateur == "-":
             return self.soustraction(a, b)
+        else:
+            return self.multiplication(a, b)
