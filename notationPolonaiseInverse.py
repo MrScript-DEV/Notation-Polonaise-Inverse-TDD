@@ -24,4 +24,14 @@ class NotationPolonaiseInverse:
             return print("Valeur(s) non valide!")
 
     def calculatrice(self, npi):
-        return 45
+        npiList = npi.split()
+        pile = []
+
+        for i in npiList:
+            if i.isnumeric():
+                pile.append(int(i))
+            else:
+                nouveauChiffre = self.calcul(pile[-2], pile[-1], i)
+                pile.pop(-1)
+                pile[-1] = nouveauChiffre
+        return pile[0]
