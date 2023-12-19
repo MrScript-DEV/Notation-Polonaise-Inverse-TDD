@@ -15,6 +15,10 @@ class Test(unittest.TestCase):
         # 6 6 *
         self.assertEqual(36, NotationPolonaiseInverse().multiplication(6, 6))
 
+    def test_division(self):
+        # 10 2 /
+        self.assertEqual(5, NotationPolonaiseInverse().division(10, 2))
+
 
 if __name__ == '__main__':
     unittest.main()
