@@ -22,3 +22,6 @@ class NotationPolonaiseInverse:
             return self.division(a, b)
         else:
             return print("Valeur(s) non valide!")
+
+    def calculatrice(self, npi):
+        pass
