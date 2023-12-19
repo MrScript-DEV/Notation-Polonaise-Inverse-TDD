@@ -6,4 +6,4 @@ class NotationPolonaiseInverse:
         return a - b
 
     def multiplication(self, a, b):
-        pass
+        return a * b

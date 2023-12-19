@@ -1,6 +1,7 @@
 import unittest
 from notationPolonaiseInverse import NotationPolonaiseInverse
 
+
 class Test(unittest.TestCase):
     def test_addition(self):
         # 2 2 +
