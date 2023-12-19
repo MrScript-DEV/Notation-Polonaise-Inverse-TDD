@@ -3,4 +3,4 @@ class NotationPolonaiseInverse:
         return a + b
 
     def soustraction(self, a, b):
-        pass
+        return a - b
