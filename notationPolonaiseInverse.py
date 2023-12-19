@@ -12,4 +12,7 @@ class NotationPolonaiseInverse:
         return a / b
 
     def calcul(self, a, b, operateur):
-        return self.addition(a, b)
+        if operateur == "+":
+            return self.addition(a, b)
+        else:
+            return self.soustraction(a, b)
