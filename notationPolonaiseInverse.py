@@ -12,4 +12,4 @@ class NotationPolonaiseInverse:
         return a / b
 
     def calcul(self, a, b, operateur):
-        pass
+        return self.addition(a, b)
