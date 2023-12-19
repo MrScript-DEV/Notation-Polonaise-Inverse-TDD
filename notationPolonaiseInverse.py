@@ -9,4 +9,4 @@ class NotationPolonaiseInverse:
         return a * b
 
     def division(self, a, b):
-        pass
+        return a / b
