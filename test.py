@@ -39,5 +39,9 @@ class Test(unittest.TestCase):
         # 3 10 5 + *
         self.assertEqual(45, NotationPolonaiseInverse().calculatrice("3 10 5 + *"))
 
+    def test_calculatrice_2_npi(self):
+        # 10 4 3 + 2 * -
+        self.assertEqual(-4, NotationPolonaiseInverse().calculatrice("10 4 3 + 2 * -"))
+
 if __name__ == '__main__':
     unittest.main()
