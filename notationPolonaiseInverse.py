@@ -16,5 +16,9 @@ class NotationPolonaiseInverse:
             return self.addition(a, b)
         elif operateur == "-":
             return self.soustraction(a, b)
-        else:
+        elif operateur == "*":
             return self.multiplication(a, b)
+        elif operateur == "/":
+            return self.division(a, b)
+        else:
+            return print("Valeur(s) non valide!")
