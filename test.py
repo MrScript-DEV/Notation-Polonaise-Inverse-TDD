@@ -19,6 +19,9 @@ class Test(unittest.TestCase):
         # 10 2 /
         self.assertEqual(5, NotationPolonaiseInverse().division(10, 2))
 
+    def test_calcul_addition_npi(self):
+        # 2 2 +
+        self.assertEqual(4, NotationPolonaiseInverse().calcul(2, 2, "+"))
 
 if __name__ == '__main__':
     unittest.main()

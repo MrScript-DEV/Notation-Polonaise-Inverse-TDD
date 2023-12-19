@@ -10,3 +10,6 @@ class NotationPolonaiseInverse:
 
     def division(self, a, b):
         return a / b
+
+    def calcul(self, a, b, operateur):
+        pass
