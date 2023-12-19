@@ -1,0 +1,2 @@
+class NotationPolonaiseInverse:
+    pass
