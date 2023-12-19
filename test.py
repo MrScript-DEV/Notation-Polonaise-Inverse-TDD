@@ -10,6 +10,9 @@ class Test(unittest.TestCase):
         # 5 3 -
         self.assertEqual(2, NotationPolonaiseInverse().soustraction(5, 3))
 
+    def test_multiplication(self):
+        # 6 6 *
+        self.assertEqual(36, NotationPolonaiseInverse().multiplication(6, 6))
 
 
 if __name__ == '__main__':
