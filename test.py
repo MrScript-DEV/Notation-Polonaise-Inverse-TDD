@@ -27,5 +27,9 @@ class Test(unittest.TestCase):
         # 5 3 -
         self.assertEqual(2, NotationPolonaiseInverse().calcul(5, 3, "-"))
 
+    def test_calcul_multiplication_npi(self):
+        # 6 6 *
+        self.assertEqual(36, NotationPolonaiseInverse().calcul(6, 6, "*"))
+
 if __name__ == '__main__':
     unittest.main()
